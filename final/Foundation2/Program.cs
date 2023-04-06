@@ -47,8 +47,10 @@ class Program
         foreach(Order order in orders){
             Console.WriteLine($"{order.GetName()}'s Packing Label: ");
             Console.WriteLine($"{order.PackingLabel()}");
+            Console.WriteLine();
             Console.WriteLine($"{order.GetName()}'s Shipping Label: ");
             Console.WriteLine($"{order.ShippingLabel()}");
+            Console.WriteLine();
         }
         
 
